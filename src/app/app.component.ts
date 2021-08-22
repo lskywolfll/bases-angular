@@ -8,12 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'Counter App';
   counter: number = 0;
+  base: number = 5;
 
-  incrementCounter(){
-    this.counter++
+  incrementCounter() {
+    this.counter += this.base;
   }
 
-  decrementCounter(){
-    this.counter--
+  decrementCounter() {
+    this.counter -= this.base;
   }
 }

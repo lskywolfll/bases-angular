@@ -1,11 +1,10 @@
 
 <title>{{title}}</title>
 <h1>{{title}}</h1>
-
-
+<h3>La base es: <strong>{{base}}</strong></h3>
 
 <div>
-  <button (click)="this.incrementCounter() ">+ 1</button>
+  <button (click)="incrementCounter()">+ {{base}}</button>
   <span>{{counter}}</span>
-  <button (click)="this.decrementCounter()">- 1</button>
+  <button (click)="decrementCounter()">- {{base}}</button>
 </div>
