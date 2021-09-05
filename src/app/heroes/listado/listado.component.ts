@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListadoComponent {
   heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Thor', 'Flores'];
-  heroeDeleted: string = 'None';
+  heroeDeleted: string = '';
 
   borrarHeroe() {
-    this.heroeDeleted  = this.heroes.pop() || 'None';
+    this.heroeDeleted  = this.heroes.pop() || '';
   }
 }
