@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contador',
-  styleUrls: ['../app.component.css'],
+  styleUrls: ['../../app.component.css'],
   template: `
     <title>{{ title }}</title>
     <h1>{{ title }}</h1>
